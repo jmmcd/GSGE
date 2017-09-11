@@ -1,0 +1,5 @@
+<expr> ::= (<expr> <biop> <expr>) | <uop> <expr> | <var>
+<biop> ::= and | or
+<uop> ::= not
+<var> ::= x[<varidx>]
+<varidx> ::= GE_RANGE:n_vars

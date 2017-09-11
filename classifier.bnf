@@ -1,0 +1,6 @@
+<cf> ::= (<cf> if <cond> else <cf>) | <os>
+<cond> ::= <var> == <is> | <cond> and <var> == <is>
+<is> ::= GE_RANGE:n_is
+<os> ::= GE_RANGE:n_os
+<var> ::= x[<varidx>]
+<varidx> ::= GE_RANGE:n_vars
